@@ -1,0 +1,11 @@
+def PrintShapes():
+    print('=======')
+    print('<><><><>')
+    print('=======')
+name = input('What is your name?: ')
+PrintShapes()
+age = input('How old are you?: ')
+PrintShapes()
+drink = input('What is yout favorite drink?: ')
+PrintShapes()
+print(f'Hello {name}! You are {age} y.o.\nYour favorite drink is {drink}.')
